@@ -2,7 +2,7 @@
 
 namespace BulkBookBuying.Utility
 {
-    public class Class1
+    public class SD
     {
     }
 }
