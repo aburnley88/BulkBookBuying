@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BulkBookBuying.Models;
+using BulkBookBuying.Models.ViewModels;
 
 namespace BulkBookBuying.Controllers
 {

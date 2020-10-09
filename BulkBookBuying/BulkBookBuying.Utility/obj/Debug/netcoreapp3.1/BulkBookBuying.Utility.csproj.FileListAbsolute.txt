@@ -1,9 +1,9 @@
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Utility\bin\Debug\netcoreapp3.1\BulkBookBuying.Utility.deps.json
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Utility\bin\Debug\netcoreapp3.1\BulkBookBuying.Utility.dll
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Utility\bin\Debug\netcoreapp3.1\BulkBookBuying.Utility.pdb
-C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Utility\obj\Debug\netcoreapp3.1\BulkBookBuying.Utility.csprojAssemblyReference.cache
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Utility\obj\Debug\netcoreapp3.1\BulkBookBuying.Utility.AssemblyInfoInputs.cache
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Utility\obj\Debug\netcoreapp3.1\BulkBookBuying.Utility.AssemblyInfo.cs
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Utility\obj\Debug\netcoreapp3.1\BulkBookBuying.Utility.csproj.CoreCompileInputs.cache
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Utility\obj\Debug\netcoreapp3.1\BulkBookBuying.Utility.dll
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Utility\obj\Debug\netcoreapp3.1\BulkBookBuying.Utility.pdb
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Utility\obj\Debug\netcoreapp3.1\BulkBookBuying.Utility.csprojAssemblyReference.cache

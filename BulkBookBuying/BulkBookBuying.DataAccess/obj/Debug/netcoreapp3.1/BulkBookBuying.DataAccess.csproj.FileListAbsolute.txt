@@ -6,3 +6,9 @@ C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.DataAcce
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.DataAccess\obj\Debug\netcoreapp3.1\BulkBookBuying.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.DataAccess\obj\Debug\netcoreapp3.1\BulkBookBuying.DataAccess.dll
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.DataAccess\obj\Debug\netcoreapp3.1\BulkBookBuying.DataAccess.pdb
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.DataAccess\bin\Debug\netcoreapp3.1\BulkBookBuying.Models.dll
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.DataAccess\bin\Debug\netcoreapp3.1\BulkBookBuying.Utility.dll
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.DataAccess\bin\Debug\netcoreapp3.1\BulkBookBuying.Models.pdb
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.DataAccess\bin\Debug\netcoreapp3.1\BulkBookBuying.Utility.pdb
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.DataAccess\obj\Debug\netcoreapp3.1\BulkBookBuying.DataAccess.csprojAssemblyReference.cache
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.DataAccess\obj\Debug\netcoreapp3.1\BulkBookBuying.DataAccess.csproj.CopyComplete
