@@ -1529,6 +1529,26 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "BulkBookBuying.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BulkBookBuying.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkBookBuying.Models.dll": {}
+        }
+      },
+      "BulkBookBuying.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BulkBookBuying.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkBookBuying.Utility.dll": {}
+        }
       }
     }
   },
@@ -5791,10 +5811,22 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "BulkBookBuying.Models/1.0.0": {
+      "type": "project",
+      "path": "../BulkBookBuying.Models/BulkBookBuying.Models.csproj",
+      "msbuildProject": "../BulkBookBuying.Models/BulkBookBuying.Models.csproj"
+    },
+    "BulkBookBuying.Utility/1.0.0": {
+      "type": "project",
+      "path": "../BulkBookBuying.Utility/BulkBookBuying.Utility.csproj",
+      "msbuildProject": "../BulkBookBuying.Utility/BulkBookBuying.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BulkBookBuying.Models >= 1.0.0",
+      "BulkBookBuying.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8"
@@ -5825,7 +5857,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Models\\BulkBookBuying.Models.csproj": {
+              "projectPath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Models\\BulkBookBuying.Models.csproj"
+            },
+            "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj": {
+              "projectPath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

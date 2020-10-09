@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BulkBookBuying.DataAccess\BulkBookBuying.DataAccess.csproj" />
+    <ProjectReference Include="..\BulkBookBuying.Models\BulkBookBuying.Models.csproj" />
+    <ProjectReference Include="..\BulkBookBuying.Utility\BulkBookBuying.Utility.csproj" />
   </ItemGroup>
 
 </Project>
