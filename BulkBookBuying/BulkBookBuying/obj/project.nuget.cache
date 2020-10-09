@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U5P0EGx4AHBvKh6IN2WlgH5vyc/VMXAa3fb/j1WgMEvIhTTDYfl2IcugAnU4hwP87wQWAAX03AEJqE7HJR8+CQ==",
+  "dgSpecHash": "9/ERWIx6qyRWdvWPmSJhDAEfBRrH07eYsY6SDzCKKfRTzcmNnfTl0xyJz4JGTW5oiUvj0+ER1Hrb65MGO0LZiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.csproj",
+  "projectFilePath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",
