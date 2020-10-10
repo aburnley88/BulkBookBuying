@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using BulkBookBuying.Data;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using BulkBookBuying.Models;
 using BulkBookBuying.Models.ViewModels;
 
-namespace BulkBookBuying.Aras.Customer.Controllers
+namespace BulkBookBuying.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller
