@@ -5,6 +5,7 @@
     var title = "Create Category";
 }
 
+
 <form method="post">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -20,10 +21,9 @@
             <div class="form-group row">
                 <div class="col-4">
                     <label asp-for="Name"></label>
-
                 </div>
                 <div class="col-8">
-                    <input asp-for="Name" class="form-control" />
+                    <input as="Name" class="form-control" />
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
             </div>
@@ -42,6 +42,7 @@
         </div>
     </div>
 </form>
-@section Scripts{ 
+
+@section Scripts{
     <partial name="_ValidationScriptsPartial" />
 }
