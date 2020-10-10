@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using BulkBookBuying.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace BulkBookBuying.DataAccess.Data
@@ -7,5 +8,7 @@ namespace BulkBookBuying.DataAccess.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options) { }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
