@@ -7,6 +7,8 @@
   <ItemGroup>
     <Compile Remove="Migrations\20201010151242_DbUpdate.cs" />
     <Compile Remove="Migrations\20201010151242_DbUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20201010160536_AddCoverTypeToDb.cs" />
+    <Compile Remove="Migrations\20201010160536_AddCoverTypeToDb.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
