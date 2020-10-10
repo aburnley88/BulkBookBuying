@@ -5829,7 +5829,8 @@
       "BulkBookBuying.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.8",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8",
+      "System.Linq.Expressions >= 4.3.0"
     ]
   },
   "packageFolders": {
@@ -5887,6 +5888,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.8, )"
+          },
+          "System.Linq.Expressions": {
+            "target": "Package",
+            "version": "[4.3.0, )"
           }
         },
         "imports": [
