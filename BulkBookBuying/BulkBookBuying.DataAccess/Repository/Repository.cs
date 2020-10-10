@@ -29,7 +29,7 @@ namespace BulkBookBuying.DataAccess.Repository
 
         public T Get(int id)
         {
-            return dbSet.Find();
+            return dbSet.Find(id);
         }
 
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderby = null, string includeProperties = null)
