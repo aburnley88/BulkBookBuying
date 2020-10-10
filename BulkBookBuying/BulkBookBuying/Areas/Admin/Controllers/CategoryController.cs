@@ -25,7 +25,7 @@ namespace BulkBookBuying.Areas.Admin.Controllers
         }
         public IActionResult Upsert(int? id)
         {
-            Category category = new Category();
+           var category = new Category();
             if (id == null)
             {
                 //this is for create
@@ -48,7 +48,8 @@ namespace BulkBookBuying.Areas.Admin.Controllers
                 if (category.Id == 0)
                 {
                     _unitOfWork.Category.Add(category);
-
+                    _unitOfWork.Save();
+                    
                 }
                 else
                 {

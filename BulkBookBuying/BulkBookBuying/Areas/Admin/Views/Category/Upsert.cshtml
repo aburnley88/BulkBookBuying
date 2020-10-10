@@ -23,7 +23,7 @@
                     <label asp-for="Name"></label>
                 </div>
                 <div class="col-8">
-                    <input as="Name" class="form-control" />
+                    <input asp-for="Name" class="form-control"/>
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
             </div>
@@ -43,6 +43,6 @@
     </div>
 </form>
 
-@section Scripts{
+@section Scripts{ 
     <partial name="_ValidationScriptsPartial" />
 }
