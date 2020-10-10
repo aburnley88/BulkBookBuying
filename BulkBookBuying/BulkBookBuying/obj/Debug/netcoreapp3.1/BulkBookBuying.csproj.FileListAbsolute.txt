@@ -447,3 +447,7 @@ C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debu
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CoverType\Index.cshtml.g.cs
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CoverType\Upsert.cshtml.g.cs
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
