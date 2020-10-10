@@ -5,26 +5,27 @@ using System.Threading.Tasks;
 using BulkBookBuying.DataAccess.Repository.IRepository;
 using BulkBookBuying.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging;
 
 namespace BulkBookBuying.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CategoryController : Controller
     {
+        //create a private readonly IUnitOfWork
         private readonly IUnitOfWork _unitOfWork;
-
         public CategoryController(IUnitOfWork unitOfWork)
         {
-            _unitOfWork = unitOfWork;
-        }
+            _unitOfWork = unitOfWork; 
 
+        }
         public IActionResult Index()
         {
             return View();
         }
         public IActionResult Upsert(int? id)
         {
-            Category category = new Category();
+           var category = new Category();
             if (id == null)
             {
                 //this is for create
@@ -38,7 +39,6 @@ namespace BulkBookBuying.Areas.Admin.Controllers
             }
             return View(category);
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Category category)
@@ -48,11 +48,13 @@ namespace BulkBookBuying.Areas.Admin.Controllers
                 if (category.Id == 0)
                 {
                     _unitOfWork.Category.Add(category);
-
+                    _unitOfWork.Save();
+                    
                 }
                 else
                 {
                     _unitOfWork.Category.Update(category);
+                   
                 }
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
@@ -69,21 +71,20 @@ namespace BulkBookBuying.Areas.Admin.Controllers
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
+
         [HttpDelete]
         public IActionResult Delete(int id)
         {
             var objFromDb = _unitOfWork.Category.Get(id);
             if (objFromDb == null)
             {
-                return Json(new { success = false, message = "Error while deleting" });
+                return Json(new {success = false, message = "Error while deleting"});
             }
             _unitOfWork.Category.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });
 
         }
-
         #endregion
     }
 } 
-

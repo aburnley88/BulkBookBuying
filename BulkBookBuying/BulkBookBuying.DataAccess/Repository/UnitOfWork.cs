@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using BulkBookBuying.DataAccess.Data;
 using BulkBookBuying.DataAccess.Repository.IRepository;
+using BulkBookBuying.Models;
 
 namespace BulkBookBuying.DataAccess.Repository
 {
