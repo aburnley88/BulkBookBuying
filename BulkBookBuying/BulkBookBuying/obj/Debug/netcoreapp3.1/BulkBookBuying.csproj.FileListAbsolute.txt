@@ -441,3 +441,7 @@ C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debu
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Index.cshtml.g.cs
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Upsert.cshtml.g.cs
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CreateAndBackToList.cshtml.g.cs
+C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToList.cshtml.g.cs
