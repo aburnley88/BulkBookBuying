@@ -451,3 +451,5 @@ C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debu
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Company\Index.cshtml.g.cs
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Company\Upsert.cshtml.g.cs

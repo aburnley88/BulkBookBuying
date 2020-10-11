@@ -5,5 +5,5 @@ C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Models\o
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Models\obj\Debug\netcoreapp3.1\BulkBookBuying.Models.AssemblyInfo.cs
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Models\obj\Debug\netcoreapp3.1\BulkBookBuying.Models.dll
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Models\obj\Debug\netcoreapp3.1\BulkBookBuying.Models.pdb
-C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Models\obj\Debug\netcoreapp3.1\BulkBookBuying.Models.csproj.CoreCompileInputs.cache
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Models\obj\Debug\netcoreapp3.1\BulkBookBuying.Models.csprojAssemblyReference.cache
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying.Models\obj\Debug\netcoreapp3.1\BulkBookBuying.Models.csproj.CoreCompileInputs.cache
