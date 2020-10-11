@@ -5,9 +5,11 @@ using Microsoft.EntityFrameworkCore;
 using BulkBookBuying.DataAccess.Data;
 using BulkBookBuying.DataAccess.Repository;
 using BulkBookBuying.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using BulkBookBuying.Utility;
 
 namespace BulkBookBuying
 {
@@ -28,6 +30,7 @@ namespace BulkBookBuying
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddSingleton<IEmailSender, EmailSender>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();

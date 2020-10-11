@@ -118,7 +118,7 @@ namespace BulkBookBuying.Areas.Identity.Pages.Account
                     }
                     if (!await _roleManager.RoleExistsAsync(SD.Role_User_Comp))
                     {
-                        await _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Indi));
+                        await _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Comp));
                     }
                     if (!await _roleManager.RoleExistsAsync(SD.Role_User_Indi))
                     {

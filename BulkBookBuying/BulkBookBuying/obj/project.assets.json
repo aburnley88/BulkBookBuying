@@ -3263,12 +3263,18 @@
       "BulkBookBuying.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "3.1.8"
+        },
         "compile": {
           "bin/placeholder/BulkBookBuying.Utility.dll": {}
         },
         "runtime": {
           "bin/placeholder/BulkBookBuying.Utility.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
