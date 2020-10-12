@@ -153,7 +153,21 @@ namespace BulkBookBuying.Areas.Identity.Pages.Account
                         await _roleManager.CreateAsync(new IdentityRole(SD.Role_Employee));
                     }
 
-                    await _userManager.AddToRoleAsync(user, SD.Role_Admin);
+                    if (user.Role == null)
+                    {
+                        await _userManager.AddToRoleAsync(user, SD.Role_User_Indi);
+                    }
+                    else
+                    {
+                        if (user.CompanyId > 0)
+                        {
+                            await _userManager.AddToRoleAsync(user, SD.Role_User_Comp);
+                        }
+
+                        await _userManager.AddToRoleAsync(user, user.Role);
+                    }
+
+                   
 
 
                     //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -169,12 +183,21 @@ namespace BulkBookBuying.Areas.Identity.Pages.Account
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {
-                        return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
+                        return RedirectToPage("RegisterConfirmation", new { email = Input.Email,});
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        if (user.Role == null)
+                        {
+                            await _signInManager.SignInAsync(user, isPersistent: false);
+                            return LocalRedirect(returnUrl);
+                        }
+                        else
+                        {
+                            //admin registering new user
+                            return RedirectToAction("Index", "User", new {Area = "Admin"});
+                        }
+                       
                     }
                 }
                 foreach (var error in result.Errors)
