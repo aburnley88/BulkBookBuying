@@ -30,6 +30,7 @@ namespace BulkBookBuying.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
+            //get all user objects to list
             var userList = _db.ApplicationUsers.Include(u => u.Company).ToList();
             var userRole = _db.UserRoles.ToList();
             var roles = _db.Roles.ToList();
