@@ -39,13 +39,10 @@ namespace BulkBookBuying.Areas.Admin.Controllers
             {
                 var roleId = userRole.FirstOrDefault(u => u.UserId == user.Id).RoleId;
                 user.Role = roles.FirstOrDefault(u => u.Id == roleId).Name;
-                if (user.Company == null)
+                user.Company ??= new Company()
                 {
-                    user.Company = new Company()
-                    {
-                        Name = ""
-                    };
-                }
+                    Name = ""
+                };
 
             }
 

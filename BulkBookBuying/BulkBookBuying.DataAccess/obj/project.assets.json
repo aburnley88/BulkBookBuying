@@ -8617,11 +8617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.DataAccess\\BulkBookBuying.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.DataAccess\\BulkBookBuying.DataAccess.csproj",
       "projectName": "BulkBookBuying.DataAccess",
-      "projectPath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.DataAccess\\BulkBookBuying.DataAccess.csproj",
+      "projectPath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.DataAccess\\BulkBookBuying.DataAccess.csproj",
       "packagesPath": "C:\\Users\\wwstudent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wwstudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8637,11 +8637,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Models\\BulkBookBuying.Models.csproj": {
-              "projectPath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Models\\BulkBookBuying.Models.csproj"
+            "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Models\\BulkBookBuying.Models.csproj": {
+              "projectPath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Models\\BulkBookBuying.Models.csproj"
             },
-            "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj": {
-              "projectPath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj"
+            "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj": {
+              "projectPath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj"
             }
           }
         }
