@@ -3244,7 +3244,10 @@
         },
         "runtime": {
           "bin/placeholder/BulkBookBuying.DataAccess.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "BulkBookBuying.Models/1.0.0": {
         "type": "project",
