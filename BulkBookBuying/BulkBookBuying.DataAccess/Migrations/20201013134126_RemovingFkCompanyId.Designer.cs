@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BulkBookBuying.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201012194713_DbCatchUp")]
-    partial class DbCatchUp
+    [Migration("20201013134126_RemovingFkCompanyId")]
+    partial class RemovingFkCompanyId
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -36,39 +36,6 @@ namespace BulkBookBuying.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
-                });
-
-            modelBuilder.Entity("BulkBookBuying.Models.Company", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsAuthorizedCompany")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PostalCode")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("State")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("StreetAddress")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Companies");
                 });
 
             modelBuilder.Entity("BulkBookBuying.Models.CoverType", b =>
@@ -342,17 +309,15 @@ namespace BulkBookBuying.DataAccess.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("BulkBookBuying.Models.ApplicationUser", b =>
+            modelBuilder.Entity("BulkyookBuying.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("CompanyId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PostalCode")
@@ -363,8 +328,6 @@ namespace BulkBookBuying.DataAccess.Migrations
 
                     b.Property<string>("StreetAddress")
                         .HasColumnType("nvarchar(max)");
-
-                    b.HasIndex("CompanyId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -433,13 +396,6 @@ namespace BulkBookBuying.DataAccess.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("BulkBookBuying.Models.ApplicationUser", b =>
-                {
-                    b.HasOne("BulkBookBuying.Models.Company", "Company")
-                        .WithMany()
-                        .HasForeignKey("CompanyId");
                 });
 #pragma warning restore 612, 618
         }

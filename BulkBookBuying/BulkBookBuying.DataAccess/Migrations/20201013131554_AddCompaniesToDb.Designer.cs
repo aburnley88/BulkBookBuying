@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BulkBookBuying.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201011185900_UpdateDb")]
-    partial class UpdateDb
+    [Migration("20201013131554_AddCompaniesToDb")]
+    partial class AddCompaniesToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -48,13 +48,16 @@ namespace BulkBookBuying.DataAccess.Migrations
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("IsAuthorized")
+                    b.Property<bool>("IsAuthorizedCompany")
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PostalCode")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("State")
@@ -286,12 +289,10 @@ namespace BulkBookBuying.DataAccess.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(128)")
-                        .HasMaxLength(128);
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("nvarchar(128)")
-                        .HasMaxLength(128);
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -328,12 +329,10 @@ namespace BulkBookBuying.DataAccess.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(128)")
-                        .HasMaxLength(128);
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(128)")
-                        .HasMaxLength(128);
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -343,7 +342,7 @@ namespace BulkBookBuying.DataAccess.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("BulkBookBuying.Models.ApplicationUser", b =>
+            modelBuilder.Entity("BulkyookBuying.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
@@ -354,6 +353,7 @@ namespace BulkBookBuying.DataAccess.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PostalCode")
@@ -364,8 +364,6 @@ namespace BulkBookBuying.DataAccess.Migrations
 
                     b.Property<string>("StreetAddress")
                         .HasColumnType("nvarchar(max)");
-
-                    b.HasIndex("CompanyId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -434,13 +432,6 @@ namespace BulkBookBuying.DataAccess.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("BulkBookBuying.Models.ApplicationUser", b =>
-                {
-                    b.HasOne("BulkBookBuying.Models.Company", "Company")
-                        .WithMany()
-                        .HasForeignKey("CompanyId");
                 });
 #pragma warning restore 612, 618
         }

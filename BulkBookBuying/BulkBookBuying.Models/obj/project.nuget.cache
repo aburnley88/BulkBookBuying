@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "agNzos8Hzil7waIWxCEUm0DFWIbvwT4Zo8zI78UZOnbz6w165APpdHRBw4gT52MOeOg8r2VK+2iZDmNKCYycTA==",
+  "dgSpecHash": "cYbZ+FKbVwmgIdRimsz36ZMBXqH/Nf+hqb7RAbgN2+777gHySz/jHykzT7sT8gX8rr1mS/r1ihebvn0u0WbP+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Models\\BulkBookBuying.Models.csproj",
+  "projectFilePath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Models\\BulkBookBuying.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -1,27 +1,24 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Runtime.InteropServices;
 using System.Text;
-using Microsoft.AspNetCore.Identity;
+using BulkBookBuying.Models;
 
-namespace BulkBookBuying.Models
+namespace BulkyookBuying.Models
 {
-    public class ApplicationUser: IdentityUser
+    public class ApplicationUser : IdentityUser
     {
+        [Required]
         public string Name { get; set; }
         public string StreetAddress { get; set; }
         public string City { get; set; }
         public string State { get; set; }
         public string PostalCode { get; set; }
 
-        public int? CompanyId { get; set; }
-        [ForeignKey("CompanyId")] 
-        public Company Company { get; set; }
-
-        [NotMapped] 
+     
+        [NotMapped]
         public string Role { get; set; }
-
-  
     }
 }
