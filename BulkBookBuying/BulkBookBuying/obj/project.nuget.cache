@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZUqtpdb93KU1UMzTROnRfDcicz7DLi5OBwuNLWbA3glhZ5u7yTmAxRE7+PIl/KIiN/xs/srijtfnjw+EBog4yg==",
+  "dgSpecHash": "d25bSoZz3rECZAaO4YH09sGHj44536du1LRizMvcPksIIO0RF1N5VBQOdieNgy0QJq2tx206xgb/zi5BxLN7/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.csproj",
+  "projectFilePath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wwstudent\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
