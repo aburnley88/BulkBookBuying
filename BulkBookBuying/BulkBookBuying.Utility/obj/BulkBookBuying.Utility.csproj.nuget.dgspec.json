@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj": {}
+    "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj": {
+    "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj",
         "projectName": "BulkBookBuying.Utility",
-        "projectPath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj",
+        "projectPath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj",
         "packagesPath": "C:\\Users\\wwstudent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wwstudent\\desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\obj\\",
+        "outputPath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wwstudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
