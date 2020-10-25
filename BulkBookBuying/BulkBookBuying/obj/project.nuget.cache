@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZUqtpdb93KU1UMzTROnRfDcicz7DLi5OBwuNLWbA3glhZ5u7yTmAxRE7+PIl/KIiN/xs/srijtfnjw+EBog4yg==",
+  "dgSpecHash": "kE2dGdW3xZscLWI+Hjsklv6cv47jv6O8cO8mgLTevOnwkwk0EoDRbF4yCA3f5SWYXYlKKZMnGRNjACrjEt8/jA==",
   "success": true,
   "projectFilePath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.1.9\\microsoft.aspnetcore.authentication.facebook.3.1.9.nupkg.sha512",
+    "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.9\\microsoft.aspnetcore.authentication.google.3.1.9.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",

@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 using BulkBookBuying.DataAccess.Repository.IRepository;
 using BulkBookBuying.Models;
 using BulkBookBuying.Models.ViewModels;
+using BulkBookBuying.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 namespace BulkyBook.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
