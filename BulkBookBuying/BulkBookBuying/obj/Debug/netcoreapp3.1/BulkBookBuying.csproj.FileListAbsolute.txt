@@ -489,3 +489,6 @@ C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debu
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Company\Index.cshtml.g.cs
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Company\Upsert.cshtml.g.cs
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs

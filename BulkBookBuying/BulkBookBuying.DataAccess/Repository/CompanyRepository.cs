@@ -18,12 +18,7 @@ namespace BulkBookBuying.DataAccess.Repository
 
         public void Update(Company company)
         {
-           var objFromDb = _db.Companies.FirstOrDefault(s => s.Id == company.Id);
-            if (objFromDb != null)
-            {
-                objFromDb.Name = company.Name;
-
-            }
+          _db.Update(company);
         }
     }
 }
