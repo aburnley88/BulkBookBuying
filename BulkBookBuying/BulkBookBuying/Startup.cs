@@ -43,7 +43,7 @@ namespace BulkBookBuying
             services.AddAuthentication().AddFacebook(options=>
             {
                 options.AppId="3233905030041691";
-                options.AppId ="f98482b137bac731f982ae819cf65eac";
+                options.AppSecret="f98482b137bac731f982ae819cf65eac";
             });
         }
 
