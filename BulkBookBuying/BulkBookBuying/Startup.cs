@@ -31,6 +31,7 @@ namespace BulkBookBuying
             services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddSingleton<IEmailSender, EmailSender>();
+            services.Configure<EmailOptions>(Configuration);
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
@@ -44,6 +45,11 @@ namespace BulkBookBuying
             {
                 options.AppId="3233905030041691";
                 options.AppSecret="f98482b137bac731f982ae819cf65eac";
+            });
+             services.AddAuthentication().AddGoogle(options=>
+            {
+                options.ClientId="751461397446-roq45j4di50m4sj6cbaa0p1h0k9o85vk.apps.googleusercontent.com";
+                options.ClientSecret="H3bmbG5lA8djeWWHJRqtYHec ";
             });
         }
 

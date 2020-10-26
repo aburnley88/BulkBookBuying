@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uk62H5GzSq7hHzQDpRfSx8C6GhAwO4RM49K0HElI7I5cNeIQewllc09XNC9MOogTFPSs8m8n8eDJXU6REprREg==",
+  "dgSpecHash": "o5/kKx2ioLvF9QgA+FKxBqalvhP9xJ/U8BqLaaW1X5RXBOnsnMD43mCFCluY5Qy4xfJgit6DVsnzNmbax67wjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.DataAccess\\BulkBookBuying.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -99,6 +99,8 @@
     "C:\\Users\\wwstudent\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\wwstudent\\.nuget\\packages\\sendgrid\\9.21.0\\sendgrid.9.21.0.nupkg.sha512",
+    "C:\\Users\\wwstudent\\.nuget\\packages\\starkbank-ecdsa\\1.2.0\\starkbank-ecdsa.1.2.0.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
