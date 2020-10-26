@@ -385,9 +385,6 @@ C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debu
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\BulkBookBuying.Utility.dll
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\BulkBookBuying.Models.pdb
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\BulkBookBuying.Utility.pdb
-C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\BulkBookBuying.csproj.CoreCompileInputs.cache
-C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\BulkBookBuying.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\BulkBookBuying.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\wwstudent\desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
@@ -492,3 +489,8 @@ C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debu
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Company\Index.cshtml.g.cs
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Company\Upsert.cshtml.g.cs
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\BulkBookBuying.csproj.CoreCompileInputs.cache
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\BulkBookBuying.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\BulkBookBuying.MvcApplicationPartsAssemblyInfo.cache

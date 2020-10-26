@@ -6,11 +6,13 @@ using BulkBookBuying.DataAccess.Repository.IRepository;
 using BulkBookBuying.Models;
 using BulkBookBuying.Utility;
 using Dapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BulkBookBuying.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CoverTypeController : Controller
     {
         //create a private readonly IUnitOfWork

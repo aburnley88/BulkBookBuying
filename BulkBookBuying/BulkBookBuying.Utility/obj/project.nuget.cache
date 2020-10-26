@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bm82mDchXaXe8UNEyBQVwGfstJSanWp2dCg/I7PpNSqvDPJaOzMh8MYAfxUp0gQla4CyAtowyP1fF2O/E0prEA==",
+  "dgSpecHash": "9ToAn/imJk81qVunmLTJwaX6DsI84cQHu+kK1opoBahU3otERZUxQbDGdm9N0WHjsN3Rw1aIccurBx6T6ey7iA==",
   "success": true,
   "projectFilePath": "C:\\Users\\wwstudent\\Desktop\\BulkBookBuying\\BulkBookBuying\\BulkBookBuying.Utility\\BulkBookBuying.Utility.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,9 @@
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
     "C:\\Users\\wwstudent\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
-    "C:\\Users\\wwstudent\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+    "C:\\Users\\wwstudent\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\wwstudent\\.nuget\\packages\\sendgrid\\9.21.0\\sendgrid.9.21.0.nupkg.sha512",
+    "C:\\Users\\wwstudent\\.nuget\\packages\\starkbank-ecdsa\\1.2.0\\starkbank-ecdsa.1.2.0.nupkg.sha512"
   ],
   "logs": []
 }
