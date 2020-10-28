@@ -494,3 +494,5 @@ C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debu
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\BulkBookBuying.csproj.CoreCompileInputs.cache
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\BulkBookBuying.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\obj\Debug\netcoreapp3.1\BulkBookBuying.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\SendGrid.dll
+C:\Users\wwstudent\Desktop\BulkBookBuying\BulkBookBuying\BulkBookBuying\bin\Debug\netcoreapp3.1\StarkbankEcdsa.dll
