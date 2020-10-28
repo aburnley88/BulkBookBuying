@@ -20,6 +20,9 @@ namespace BulkBookBuying.DataAccess.Repository
             Product = new ProductRepository(_db);
             //ApplicationUser = new ApplicationUserRepository(_db);
             SP_Call = new SP_Call(_db);
+            OrderDetails = new OrderDetailsRepository(_db);
+            ShoppingCart = new ShoppingCartRepository(_db);
+            OrderHeader = new OrderHeaderRepository(_db);
          
         }
 
@@ -28,8 +31,9 @@ namespace BulkBookBuying.DataAccess.Repository
         public ICompanyRepository Company { get; private set; }
         public IProductRepository Product { get; private set; }
         public ICoverTypeRepository CoverType { get; private set; }
-        //public IShoppingCartRepository ShoppingCart { get; private set; }
-        //public IOrderDetailsRepository OrderDetails { get; private set; }
+        public IShoppingCartRepository ShoppingCart { get; private set; }
+        public IOrderDetailsRepository OrderDetails { get; private set; }
+         public IOrderHeaderRepository OrderHeader { get; private set; }
         public ISP_Call SP_Call { get; private set; }
 
         public void Dispose()

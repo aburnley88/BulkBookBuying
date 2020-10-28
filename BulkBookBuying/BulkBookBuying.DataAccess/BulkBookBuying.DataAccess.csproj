@@ -9,6 +9,8 @@
     <Compile Remove="Migrations\20201010151242_DbUpdate.Designer.cs" />
     <Compile Remove="Migrations\20201010160536_AddCoverTypeToDb.cs" />
     <Compile Remove="Migrations\20201010160536_AddCoverTypeToDb.Designer.cs" />
+    <Compile Remove="Migrations\20201026175527_AddShoppingCartandOrderHeaderandDetailstoDB.cs" />
+    <Compile Remove="Migrations\20201026175527_AddShoppingCartandOrderHeaderandDetailstoDB.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
