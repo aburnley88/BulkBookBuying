@@ -23,7 +23,7 @@ namespace BulkBookBuying.DataAccess.Repository.IRepository
         );
 
         //GetFirstOrDefault is a more generic version of Get
-        IEnumerable<T> GetFirstOrDefault(
+        T GetFirstOrDefault(
             Expression<Func<T, bool>> filter = null,
             string includeProperties = null
         );
