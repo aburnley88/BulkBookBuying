@@ -10,7 +10,7 @@ namespace BulkBookBuying.DataAccess.Repository.IRepository
         ICoverTypeRepository CoverType { get; }
         IProductRepository Product { get; }
         ICompanyRepository Company { get; }
-        //IApplicationUserRepository ApplicationUser { get; }
+        IApplicationUserRepository ApplicationUser { get; }
         ISP_Call SP_Call { get; } 
         IShoppingCartRepository ShoppingCart { get; } 
         IOrderDetailsRepository OrderDetails { get; }

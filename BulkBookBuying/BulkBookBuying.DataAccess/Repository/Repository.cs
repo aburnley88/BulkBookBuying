@@ -53,20 +53,28 @@ namespace BulkBookBuying.DataAccess.Repository
             return query.ToList();
         }
 
-        public IEnumerable<T> GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
-        { IQueryable<T> query = dbSet;
+            public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
+        {
+            IQueryable<T> query = dbSet;
 
             if (filter != null)
+            {
                 query = query.Where(filter);
+            }
 
-            if(includeProperties != null)
-                foreach (var includeProp in includeProperties.Split(new char[]{','}, StringSplitOptions.RemoveEmptyEntries))
+            if (includeProperties != null)
+            {
+                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
                     query = query.Include(includeProp);
                 }
+            }
 
-            yield return query.FirstOrDefault();
+            
+            return query.FirstOrDefault();
         }
+
+      
 
         public void Remove(int id)
         {
