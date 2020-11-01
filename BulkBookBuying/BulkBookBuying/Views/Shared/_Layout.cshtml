@@ -1,4 +1,6 @@
 ﻿@using BulkBookBuying.Utility
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,8 +46,9 @@
                                 </div>
                             </li>
                         }
-                        @if (User.IsInRole(SD.Role_Admin)|| User.IsInRole(SD.Role_Employee))
-                        {   <li class="nav-item dropdown">
+                        @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
+                        {
+                            <li class="nav-item dropdown">
 
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     User Management
@@ -58,7 +61,28 @@
                                     <a class="dropdown-item" href="#">Something else here</a>
                                 </div>
                             </li>
-                         }
+                        }
+                        @if (HttpContextAccessor.HttpContext.Session.GetInt32(SD.ssShoppingCart) != null)
+                        {
+                            <li stylye="color:white;">
+                                <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="nav-link">
+                                    @{
+                                        var count = HttpContextAccessor.HttpContext.Session.GetInt32(SD.ssShoppingCart);
+                                    }
+                                    <i class="fas fa-shopping-cart"></i>&nbsp; (@count)
+                                </a>
+                            </li>
+
+                        }
+                        else
+                        {
+                            <li stylye="color:white;">
+                                <a href="#" class="nav-link">
+                                    
+                                    <i class="fas fa-shopping-cart"></i>&nbsp; (0)
+                                </a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>

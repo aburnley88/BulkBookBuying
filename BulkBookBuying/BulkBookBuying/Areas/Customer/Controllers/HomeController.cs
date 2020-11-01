@@ -30,9 +30,19 @@ namespace BulkBookBuying.Areas.Customer.Controllers
 
         public IActionResult Index()
         {
-        //    System.Console.WriteLine(( _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType").GetType())); 
+       
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
+             var claimsIdentity = (ClaimsIdentity)User.Identity;
+             var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            if(claim != null)
+            {
+                var count = _unitOfWork.ShoppingCart.GetAll(c=>c.ApplicationuserId == claim.Value)
+                        .ToList().Count();
+
+                 HttpContext.Session.SetObject(SD.ssShoppingCart, count);
+            }
             return View(productList);
+
         }
          public IActionResult Details(int id)
          {
