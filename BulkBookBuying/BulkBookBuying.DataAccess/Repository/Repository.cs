@@ -53,9 +53,10 @@ namespace BulkBookBuying.DataAccess.Repository
             return query.ToList();
         }
 
-        public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
+            public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+
             if (filter != null)
             {
                 query = query.Where(filter);
@@ -67,7 +68,9 @@ namespace BulkBookBuying.DataAccess.Repository
                 {
                     query = query.Include(includeProp);
                 }
-            }          
+            }
+
+            
             return query.FirstOrDefault();
         }
 
