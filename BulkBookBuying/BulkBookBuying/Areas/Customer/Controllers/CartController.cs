@@ -39,16 +39,18 @@ namespace BulkBookBuying.Areas.Customer.Controllers
             };
             ShoppingCartVM.OrderHeader.OrderTotal = 0;
             ShoppingCartVM.OrderHeader.ApplicationUser = _unitOfWork.ApplicationUser
-                .GetFirstOrDefault(u=> u.Id == claim.Value, includeProperties:"Company");
+            .GetFirstOrDefault(u=> u.Id == claim.Value, 
+            includeProperties:"Company");
 
             foreach (var list in ShoppingCartVM.ListCart)
             {
                 list.Price = SD.GetPriceBasedOnQty(list.Count, list.Product.Price, 
-                    list.Product.Price50, list.Product.Price100);
+                                                 list.Product.Price50, list.Product.Price100);
 
                 ShoppingCartVM.OrderHeader.OrderTotal += (list.Price*list.Count);
+                
                 list.Product.Description = SD.ConvertToRawHtml(list.Product.Description);
-                if(list.Product.Description.Length>100)
+                if(list.Product.Description.Length > 100)
                 {
                     list.Product.Description = list.Product.Description.Substring(0,99)+"...";
                 }
